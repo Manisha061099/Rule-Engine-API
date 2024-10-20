@@ -15,7 +15,7 @@ pip install Flask SQLAlchemy
 **Run the Application:**
 python app.py
 
-**Create Rule Trhough POSTMAN**
+**Create Rule Through POSTMAN**
 POST /create_rule
 {
     "rule_string": "((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing'))"
